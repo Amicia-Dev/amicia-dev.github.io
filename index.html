@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura"/>
+
+    <title>Amicia</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="ouroboros.ico"/>
+
+
+
+    <style>
+
+        body {
+
+            background-color: #120007;
+
+            color: #ff0066;
+
+            margin: 0;
+
+            overflow: hidden;
+
+            animation: TextboxAnim 1.5s linear 0s 1 normal forwards;
+
+            filter: drop-shadow(0px 0px 0px #63003a);
+
+            filter: saturate(0%) drop-shadow(0px 0px 0px #63003a);
+
+            transition: filter 1s ease 0s;
+
+        }
+
+        body:hover {
+
+            filter: saturate(100%) drop-shadow(15px 15px 15px #63003a);
+
+        }
+
+        header {
+
+            font: 150% "font", cursive;
+
+            text-align: center;
+
+            color: #ff0066;
+
+            outline: 2px solid #830035;
+
+            border-radius: 8px;
+
+            width: 80%;
+
+            margin-top: 0%;
+
+            margin-left: 10%;
+
+            transition: font 1s ease 0s;
+
+
+
+        }
+
+        header:hover {
+
+            font: 250% "bradley hand", cursive;
+
+            cursor: context-menu;
+
+        }
+
+        #ouroborosimg {
+
+            outline: 2px solid #830035;
+
+            width: 20%;
+
+            border-radius: 8px;
+
+            margin-left: 10%;
+
+            transition: width 1s ease 0s;
+
+        }
+
+        #ouroborosimg:hover {
+
+            width: 23%;
+
+        }
+
+        .text-box {
+
+            font: 150% "Jura";
+
+            text-align: center;
+
+            margin-right: 10%;
+
+            float: right;
+
+            width: 55%;
+
+            border-radius: 8px;
+
+            outline: 2px solid #830035;
+
+        }
+
+
+
+        #github-image {
+
+            width: 10%;
+
+            margin-top: 3%;
+
+            margin-left: 10%;
+
+            transition: width 1s ease 0s;
+
+        }
+
+        #github-image:hover {
+
+            width: 15%;
+
+        }
+
+
+
+        #discord-image {
+
+            width: 10%;
+
+            margin-top: 3%;
+
+            transition: width 1s ease 0s;
+
+        }
+
+        #discord-image:hover {
+
+            width: 15%;
+
+        }
+
+
+
+
+
+        .parallax-container {
+
+            width: 100%;
+
+            height: 100vh;
+
+            overflow: hidden;
+
+            perspective: 1000px;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+        }
+
+
+
+        .parallax-content {
+
+            transform-style: preserve-3d;
+
+            backface-visibility: hidden;
+
+            transition: transform 0.2s ease-out;
+
+            max-width: 80%;
+
+        }
+
+        @keyframes TextboxAnim {
+
+        	0% {
+
+        		animation-timing-function: ease-in;
+
+        		opacity: 1;
+
+        		transform: translateY(-45px);
+
+        	}
+
+        
+
+        	24% {
+
+        		opacity: 1;
+
+        	}
+
+        
+
+        	40% {
+
+        		animation-timing-function: ease-in;
+
+        		transform: translateY(-24px);
+
+        	}
+
+        
+
+        	65% {
+
+        		animation-timing-function: ease-in;
+
+        		transform: translateY(-12px);
+
+        	}
+
+        
+
+        	82% {
+
+        		animation-timing-function: ease-in;
+
+        		transform: translateY(-6px);
+
+        	}
+
+        
+
+        	93% {
+
+        		animation-timing-function: ease-in;
+
+        		transform: translateY(-4px);
+
+        	}
+
+        
+
+        	25%,
+
+        	55%,
+
+        	75%,
+
+        	87% {
+
+        		animation-timing-function: ease-out;
+
+        		transform: translateY(0px);
+
+        	}
+
+        
+
+        	100% {
+
+        		animation-timing-function: ease-out;
+
+        		opacity: 1;
+
+        		transform: translateY(0px);
+
+        	}
+
+        }
+
+
+
+    </style>
+
+</head>
+
+
+
+
+
+<div class="parallax-container">
+
+    <div class="parallax-content">
+
+        <body>
+
+            <header>
+
+                <h1>AMICIA</h1>
+
+            </header>
+
+            <img src="ouroboros.png" alt="Image" id="ouroborosimg">
+
+            <div class="text-box">
+
+                <b>Bughunter, Pentestser,</b>
+
+                <div>
+
+                    <b> Developer</b>
+
+                </div>
+
+                <p>Hi, I'm Amicia, also known as Denox.</p>
+
+                <p>I mainly do bughunting and website development.</p>
+
+                <p>Currently learning C# and Java</p>
+
+            </div>
+
+        
+
+            <div style="font-size: 0;">
+
+                <a href="https://github.com/Amicia-Dev" target="_blank">
+
+                    <img src="githubicon.png" id="github-image"/>
+
+                </a>
+
+                <a href="https://discordapp.com/users/457706754847801355" target="_blank">
+
+                    <img src="discordicon.png" id="discord-image"/>
+
+                </a>
+
+            </div>
+
+        </body>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</html>
+
