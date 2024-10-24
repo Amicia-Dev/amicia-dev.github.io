@@ -1,2 +1,1 @@
-# amicia-dev.github.io
-[<img alt="alt_text" width="40px" src="../GithubVisitWebBtn.png" />](https://amicia-dev.github.io/)
+[![Github-Visit-Web-Btn.png](https://i.postimg.cc/ZnWnwpG1/Github-Visit-Web-Btn.png)](https://amicia-dev.github.io/)
