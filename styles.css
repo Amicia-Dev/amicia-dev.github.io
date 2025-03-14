@@ -102,13 +102,13 @@ header:hover {
     margin-left: 10%;
 }
 
-#github-image:hover, #discord-image:hover, #modrinth-image:hover {
+#github-image:hover, #discord-image:hover, #modrinth-image:hover, #quotes-image:hover {
 
     width: 15%;
 
 }
 
-#github-image, #discord-image, #modrinth-image {
+#github-image, #discord-image, #modrinth-image, #quotes-image {
 
     width: 10%;
 

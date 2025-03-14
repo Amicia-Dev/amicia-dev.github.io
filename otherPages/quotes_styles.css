@@ -1,0 +1,45 @@
+body {
+    background-color: #120007;
+    color: #ff0066;
+    margin: 0;
+    padding: 20px;
+    font-family: "Jura", sans-serif;
+    max-width: 2000px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+i {
+    color: rgb(251, 220, 255);
+}
+
+#quoteExplanationButton {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.text-box {
+    font: 150% "Jura";
+    text-align: center;
+    margin-right: 10%;
+    float: right;
+    width: 55%;
+    border-radius: 8px;
+    outline: 2px solid #830035;
+    padding: 20px;
+    background-color: #3c0022;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
